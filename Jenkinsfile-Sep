@@ -37,8 +37,8 @@ node {
     }
 finally {
 sendslacknotifications(currentBuild.result)
-}//finally block closing
-}//node closing
+}
+}
 
  def sendslacknotifications(String buildStatus = 'STARTED') {
   // build status of null means successful
