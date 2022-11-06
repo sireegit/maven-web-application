@@ -63,5 +63,5 @@ sendslacknotifications(currentBuild.result)
   }
 
   // Send notifications
-  slackSend (color: colorCode, message: summary,channel: "#walmart")
+  slackSend (color: colorCode, message: summary,channel: "#wallmart")
 }
